@@ -12,9 +12,10 @@
       border-radius: 5px;
       cursor: pointer;
       font-size: 16px;
+      transition: transform 0.3s ease; /* Ajoute une transition d'animation fluide */
     }
     .youtube-button:hover {
-      background-color: darkred;
+      transform: scale(1.1); /* Agrandit le bouton de 10% */
     }
 	 .lien1-button {
       background-color: yellow;
@@ -36,7 +37,9 @@
   <title>Gaste</title>
 </head>
   <body>
+<h1>Bienvenue sur mon site web, </h1>
 <button class="youtube-button" onclick="window.open('https://www.youtube.com/channel/UCslC4BR93T5MeO2Gz5Fuswg', '_blank')">Chaine YouTube</button>
+<br>
 <button class="lien1-button" onclick="window.open('https://amzn.to/3N9jWPd', '_blank')">Acheter le casque</button>
   </body>
 </html>
